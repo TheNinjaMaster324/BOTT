@@ -9,7 +9,7 @@ const client = new Client({
 })
 
 
-client.login("MTQxMDM4MzU2NTg3NDY1OTQwOA.GGpMBq.6J_zklvhfmrNYZ3FzhDSYPoLhCu6Vdch96PHBM");
+client.login(process.env.token);
 
 client.on("ready", () => {
     console.log("Bot Online!" )
